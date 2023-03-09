@@ -13,7 +13,7 @@ legend({'$\theta$', '$\dot{\theta}$'}, ...
     'FontSize', 16)
 function dtheta = odeFun(t, theta)
     g = 9.8;
-    l = 5;
+    l = 6;
     % theta(1) = theta, theta(2) = dtheta
     
     dtheta = zeros(2, 1);
